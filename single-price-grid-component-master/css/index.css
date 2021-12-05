@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&display=swap");
+body {
+  margin: 0%;
+  background: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+}
+
+.firstsection {
+  padding: 20px;
+  background: #fff;
+}
+.secondsection__box1-dollar {
+  font-size: 24px;
+}
+.firstsection h1 {
+  color: hsl(179, 62%, 43%);
+}
+.firstsection h2 {
+  color: hsl(71, 73%, 54%);
+}
+.firstsection p {
+  color: hsl(218, 45%, 86%);
+}
+.secondsection__box2 p {
+  color: hsl(218, 44%, 89%);
+}
+button {
+  background: hsl(71, 73%, 54%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 3% 20%;
+  font-size: 16px;
+}
+.container {
+  padding: 10% 20%;
+  border-radius: 20px;
+}
+.container__div {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.secondsection {
+  display: flex;
+}
+.secondsection__box1 {
+  padding: 20px;
+  background: teal;
+  color: #fff;
+  width: 50%;
+}
+.secondsection__box2 {
+  padding: 20px;
+  background: hsl(179, 62%, 43%);
+  color: #fff;
+  width: 50%;
+}
+.secondsection__box1-para {
+  color: #fff;
+}
+sup {
+  color: hsl(203, 67%, 27%);
+}
