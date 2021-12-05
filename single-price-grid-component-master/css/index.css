@@ -4,7 +4,9 @@ body {
   background: hsl(204, 43%, 93%);
   font-family: "Karla", sans-serif;
 }
-
+p {
+  margin: 2%;
+}
 .firstsection {
   padding: 20px;
   background: #fff;
@@ -60,4 +62,19 @@ button {
 }
 sup {
   color: hsl(203, 67%, 27%);
+}
+
+@media (max-width: 768px) {
+  .secondsection {
+    display: block;
+  }
+  .secondsection__box1 {
+    width: 100%;
+  }
+  .secondsection__box2 {
+    width: 100%;
+  }
+  .container {
+    padding: 5% 10%;
+  }
 }
