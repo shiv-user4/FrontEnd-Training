@@ -77,5 +77,6 @@ body {
 @media (max-width: 768px) {
   .container {
     display: block;
+    padding: 0%;
   }
 }
